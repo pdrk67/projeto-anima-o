@@ -1,0 +1,18 @@
+:root {
+    --cor-texto2: #3772FF;
+    --tamanho-texto-principal: 150%;
+}
+
+.caixatextopr {
+    display: flex;
+    justify-content: center;  
+}
+
+.textopr {
+    text-align: center;
+    color: var(--cor-texto2);
+    font-size: var(--tamanho-texto-principal);
+    margin: 40% 5% 5% 5%;
+}
+
+/* margin: top right bottom left

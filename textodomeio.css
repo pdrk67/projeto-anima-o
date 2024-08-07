@@ -3,12 +3,12 @@
     --tamanho-texto-principal: 150%;
 }
 
-.caixatextopr {
+.caixatextoci {
     display: flex;
     justify-content: center;
 }
 
-.textoprincipal {
+.textocima {
     text-align: center;
     color: var(--cor-texto2);
     font-size: var(--tamanho-texto-principal);

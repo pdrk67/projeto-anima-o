@@ -1,0 +1,11 @@
+.caixatextopr {
+    display: flex;
+    justify-content: center;
+}
+
+.textoprincipal {
+    text-align: center;
+    color: var(--cor-texto2);
+    font-size: var(--tamanho-texto-principal);
+    margin: 5% 5% 5% 5%;
+}

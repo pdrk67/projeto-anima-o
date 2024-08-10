@@ -1,0 +1,41 @@
+:root {
+    --cor-texto2: #000000;
+    --tamanho-texto-principal: 150%;
+}
+
+.caixatextoci {
+    display: flex;
+    justify-content: center;
+    font-family: 'Karma';
+}
+
+.textocima {
+    text-align: center;
+    color: var(--cor-texto2);
+    font-size: var(--tamanho-texto-principal);
+    margin: 5% 5% 5% 5%;
+}
+
+.caixavideo {
+    display: flex;
+    justify-content: center;
+}
+
+.lebomboclat {
+    margin: 5% 5% 5% 5%;
+}
+
+.caixatextopr {
+    display: flex;
+    justify-content: center;
+    font-family: 'Karma';
+}
+
+.textoprincipal {
+    text-align: center;
+    color: var(--cor-texto2);
+    font-size: var(--tamanho-texto-principal);
+    margin: 5% 5% 5% 5%;
+}
+
+/* margin: top right bottom left

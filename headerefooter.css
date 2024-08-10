@@ -1,0 +1,43 @@
+:root {
+    --cor-de-fundo: #D6D3CC;
+    --cor-cabecalho: #080708;
+    --cor-texto: #FDCA40;
+    --tamanho-texto-padrão: 200%;
+    --tamanho-texto-rodape: 100%;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-cabecalho);
+    font-family: 'Karma';
+}
+
+.home {
+    font-size: var(--tamanho-texto-padrão);
+    padding: 2% 10%;
+    color: var(--cor-texto);
+    font-family: 'Karma';
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-cabecalho);
+    font-family: 'Karma';
+}
+
+.textorodape {
+    font-size: var(--tamanho-texto-rodape);
+    padding: 1% 5%;
+    color: var(--cor-texto);
+}
